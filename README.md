@@ -3,7 +3,7 @@
 
 # Coffee, Run (2025 Q2)
 
-![Coffee-Run-screenshot-bean](Images/Coffee-Run/coffee-run-screenshot-bean.png)
+![coffee-run-screenshot-bean](Images/Coffee-Run/coffee-run-screenshot-bean.png)
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
   <img src="Images/Coffee-Run/coffee-run-screenshot.png" alt="Coffee-Run-Screenshot" style="width: 300px; height: auto;">
