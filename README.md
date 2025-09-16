@@ -3,7 +3,7 @@
 
 # Coffee, Run (2025 Q2)
 
-![Coffee-Run-screenshot-bean](coffee-run-screenshot-bean.png)
+![Coffee-Run-screenshot-bean](Images/Coffee-Run/coffee-run-screenshot-bean.png)
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
   <img src="Images/Coffee-Run/coffee-run-screenshot.png" alt="Coffee-Run-Screenshot" style="width: 300px; height: auto;">
@@ -23,7 +23,7 @@ Itch Page: <a href="https://spectral-cat-dundee.itch.io/coffee-run" target="_bla
 
 # Matte Black (2024 Q2)
 
-![Matte-Black-Screenshot-Main-Menu](Matte-Black-Screenshot-Main-Menu.png)
+![Matte-Black-Screenshot-Main-Menu](Images/Matte-Black/Matte-Black-Screenshot-Main-Menu.png)
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
   <img src="Images/MatteBlack/Matte-Black-Screenshot.png" alt="Matte-Black-Screenshot" style="width: 300px; height: auto;">
