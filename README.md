@@ -6,7 +6,7 @@
 ![Coffee-Run-screenshot-bean](Images/Coffee-Run/coffee-run-screenshot-bean.png)
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
-  <img src="Images/Coffee-Run/coffee-run-screenshot.png" alt="Coffee-Run-Screenshot" style="width: 300px; height: auto;">
+  <img src="coffee-run-screenshot.png" alt="Coffee-Run-Screenshot" style="width: 300px; height: auto;">
   <img src="Images/Coffee-Run/coffee-run-screenshot2.png" alt="Matte-Black-Screenshot-2" style="width: 300px; height: auto;">
   <img src="Images/Coffee-Run/coffee-run-screenshot3.png" alt="Matte-Black-Screenshot-3" style="width: 300px; height: auto;">
   <img src="Images/Coffee-Run/coffee-run-screenshot-Start.png" alt="Matte-Black-Screenshot-Start" style="width: 300px; height: auto;">
