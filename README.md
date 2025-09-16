@@ -9,6 +9,10 @@
   <img src="Images/Coffee-Run/coffee-run-screenshot-4.png" alt="Coffee-Run-Screenshot" style="width: 300px; height: auto;">
   <img src="Images/Coffee-Run/coffee-run-screenshot-2.png" alt="Coffee-Run-Screenshot2" style="width: 300px; height: auto;">
   <img src="Images/Coffee-Run/coffee-run-screenshot-3.png" alt="Coffee-Run-Screenshot3" style="width: 300px; height: auto;">
+  <img src="Images/Coffee-Run/coffee-run-screenshot-pause.png" alt="Coffee-Run-Screenshot4" style="width: 300px; height: auto;">
+  <img src="Images/Coffee-Run/coffee-run-screenshot-start.png" alt="Coffee-Run-Screenshot5" style="width: 300px; height: auto;">
+  <img src="Images/Coffee-Run/coffee-run-screenshot-upgrades.png" alt="Coffee-Run-Screenshot6" style="width: 300px; height: auto;">
+  <img src="Images/Coffee-Run/coffee-run-screenshot-window.png" alt="Coffee-Run-Screenshot6" style="width: 300px; height: auto;">
 
 </div>
 
