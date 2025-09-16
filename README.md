@@ -6,7 +6,7 @@
 ![coffee-run-screenshot-bean](Images/Coffee-Run/coffee-run-screenshot-bean.png)
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
-  <img src="Images/Coffee-Run/coffee-run-screenshot.png" alt="Coffee-Run-Screenshot1" style="width: 300px; height: auto;">
+  <img src="Images/Coffee-Run/Coffee-Run-Screenshot.png" alt="Coffee-Run-Screenshot1" style="width: 300px; height: auto;">
 
 </div>
 
