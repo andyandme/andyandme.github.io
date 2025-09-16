@@ -13,7 +13,7 @@ Itch Page: <a href="https://spectral-cat-dundee.itch.io/coffee-run" target="_bla
 
 # Matte Black (2024 Q2)
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
-  <img src="Matte-Black-Screenshot.png" alt="Matte Black Screenshot 1" style="width: 300px; height: auto;">
+  <img src="Matte Black Screenshot.png" alt="Matte Black Screenshot 1" style="width: 300px; height: auto;">
   <img src="coffee-run2.png" alt="Coffee Run Screenshot 2" style="width: 300px; height: auto;">
   <img src="coffee-run3.png" alt="Coffee Run Screenshot 3" style="width: 300px; height: auto;">
 </div>
