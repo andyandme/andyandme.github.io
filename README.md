@@ -7,6 +7,7 @@
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
   <img src="Images/Coffee-Run/coffee-run-screenshot.png" alt="Coffee-Run-Screenshot" style="width: 300px; height: auto;">
+  <img src="Images/Coffee-Run/coffee-run-screenshot-2.png" alt="Coffee-Run-Screenshot" style="width: 300px; height: auto;">
 
 </div>
 
