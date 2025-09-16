@@ -6,12 +6,12 @@
 ![Coffee Run screenshot](coffee-run-screenshot-bean.png)
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
-  <img src="Images/Coffee-Run/Matte-Black-Screenshot.png" alt="Matte-Black-Screenshot" style="width: 300px; height: auto;">
-  <img src="Images/Coffee-Run/Matte-Black-Screenshot2.png" alt="Matte-Black-Screenshot-2" style="width: 300px; height: auto;">
-  <img src="Images/Coffee-Run/Matte-Black-Screenshot3.png" alt="Matte-Black-Screenshot-3" style="width: 300px; height: auto;">
-  <img src="Images/Coffee-Run/Matte-Black-Screenshot-Start.png" alt="Matte-Black-Screenshot-Start" style="width: 300px; height: auto;">
-  <img src="Images/Coffee-Run/Matte-Black-Screenshot-End.png" alt="Matte-Black-Screenshot-End" style="width: 300px; height: auto;">
-  <img src="Images/Coffee-Run/Matte-Black-Screenshot-Drunkmode.png" alt="Matte-Black-Screenshot-Drunkmode" style="width: 300px; height: auto;">
+  <img src="Images/Coffee-Run/coffee-run-screenshot.png" alt="Coffee-Run-Screenshot" style="width: 300px; height: auto;">
+  <img src="Images/Coffee-Run/coffee-run-screenshot2.png" alt="Matte-Black-Screenshot-2" style="width: 300px; height: auto;">
+  <img src="Images/Coffee-Run/coffee-run-screenshot3.png" alt="Matte-Black-Screenshot-3" style="width: 300px; height: auto;">
+  <img src="Images/Coffee-Run/coffee-run-screenshot-Start.png" alt="Matte-Black-Screenshot-Start" style="width: 300px; height: auto;">
+  <img src="Images/Coffee-Run/coffee-run-screenshot-End.png" alt="Matte-Black-Screenshot-End" style="width: 300px; height: auto;">
+  <img src="Images/Coffee-Run/coffee-run-screenshot-Drunkmode.png" alt="Matte-Black-Screenshot-Drunkmode" style="width: 300px; height: auto;">
 </div>
 
 
