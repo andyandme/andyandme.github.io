@@ -38,14 +38,23 @@ Itch Page: <a href="https://spectral-cat-dundee.itch.io/coffee-run" target="_bla
 The Floor is Lava is a solo project using the Unreal Game Engine.
 
 This originally made as a University Submission to experiment with GameMechanics that I could potentially use in later Projects which is showcased in the form of an obstacle course. 
+
 These Game Mechanics Include:
+
 -Health Bar and Damaging system
+
 -Stamina System
+
 -Rasing Lava
+
 -Triggers/checkpoints
+
 -Enhanced Movement using stamina
+
   -Sprinting
+  
   -Double Jump
+  
   -Dash
 
 Here is a Link to video Showing the Mechanics at play:
