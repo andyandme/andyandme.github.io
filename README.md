@@ -17,7 +17,7 @@
 </div>
 
 
-Coffee Run is a group project I was involved in, as one of three programers.
+Coffee Run is a group project I was involved in, as one of three programers using the Unity Game Engine.
 
 My contribution was; all forms of interaction between bean - Coffee machine - customer window, all menu ui abd functionality, The basic core game loop, a Progression System (Day/next level system), Implemented almost all particle effects, I even added aditional Dificulty and more core gameplay with my addition of functioning syrups.
 
@@ -38,7 +38,7 @@ Itch Page: <a href="https://spectral-cat-dundee.itch.io/coffee-run" target="_bla
 </div>
 
 
-Matte Black is a group project I was involved in, as one of four Programmers.
+Matte Black is a group project I was involved in, as one of four Programmers. A Private Game Engine on a Non-disclosed Architecture.
 
 My Contribution was; Player Jumping logic, Card Powers implementation, Card Management, Players Death Logic, Player/Enemy Restart Logic, Leaderboard Logic and implementation, Bonus Drunk mode implemented, Card UI, Enemy Health UI, functional timer UI, Start and End game scenes implemented and functional, Sword slash UI implementation  
 
@@ -60,7 +60,7 @@ This was made on a developer kit which an NDA was in place so there is no public
 </div>
 
 
-Work like hell is a group project I was involved in, as one of three Level Designers.
+Work like hell is a group project I was involved in, as one of three Level Designers using GameMaker Game Engine.
 
 My Contribution was; Tile placment and map Layout of the entire First Area, As well as Enemy Playment and pathing, As well as coded the entire first boss fight. All smaller images above was the levels I had worked on and the boss fight 
 
@@ -81,9 +81,9 @@ Itch Page: <a href="https://illdothattomorrowstudios.itch.io/work-like-hell" tar
 </div>
 
 
-Grassland Gunner was my first ever solo project, With assests given for free on Itch.io.
+Grassland Gunner was my first ever solo project, With assests given for free on Itch.io using SFML.
 
-My Contribution was; The Entire Project aside form the art work and music. One thing Im proud about that doesnt show on screenshots is the music progression. The higher the round the faster the music gets aswell as lyrics added to the music when reaching far enough.
+My Contribution was; The Entire Project aside from the art work and music. One thing Im proud about that doesnt show on screenshots is the music progression. The higher the round the faster the music gets aswell as lyrics added to the music when reaching far enough.
 
 Itch Page: <a href="https://andyandme.itch.io/grassland-gunner" target="_blank" rel="noopener">Grassland Gunner — itch.io</a>
 
