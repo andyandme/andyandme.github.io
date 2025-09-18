@@ -1,4 +1,4 @@
-<img width="2547" height="1256" alt="image" src="https://github.com/user-attachments/assets/e96fc391-ba80-4aaf-a868-2a6947e769fb" /> # andyandme.github.io
+# andyandme.github.io
 ## Andrew Burt Portfolio
 
 # Coffee, Run (2025 Q2)
