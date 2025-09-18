@@ -40,6 +40,25 @@ Itch Page: <a href="https://spectral-cat-dundee.itch.io/coffee-run" target="_bla
 Matte Black is a group project I was involved in, as one of four Programmers.
 My Contripution was; Player Jumping logic, Card Powers implementation, Card Management, Players Death Logic, Player/Enemy Restart Logic, Leaderboard Logic and implementation, Bonus Drunk mode implemented, Card UI, Enemy Health UI, functional timer UI, Start and End game scenes implemented and functional, Sword slash UI implementation  
 
+This was made on a developer kit which an NDA was in place so there is no public access to this project.
 
-Etc.
-TEST
+
+# Work Like Hell (2024 Q1)
+
+![Matte-Black-Screenshot-Main-Menu](Images/MatteBlack/Matte-Black-Screenshot-Main-Menu.png)
+
+<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
+  <img src="Images/MatteBlack/Matte-Black-Screenshot.png" alt="Matte-Black-Screenshot" style="width: 300px; height: auto;">
+  <img src="Images/MatteBlack/Matte-Black-Screenshot2.png" alt="Matte-Black-Screenshot-2" style="width: 300px; height: auto;">
+  <img src="Images/MatteBlack/Matte-Black-Screenshot3.png" alt="Matte-Black-Screenshot-3" style="width: 300px; height: auto;">
+  <img src="Images/MatteBlack/Matte-Black-Screenshot-Start.png" alt="Matte-Black-Screenshot-Start" style="width: 300px; height: auto;">
+  <img src="Images/MatteBlack/Matte-Black-Screenshot-End.png" alt="Matte-Black-Screenshot-End" style="width: 300px; height: auto;">
+  <img src="Images/MatteBlack/Matte-Black-Screenshot-Drunkmode.png" alt="Matte-Black-Screenshot-Drunkmode" style="width: 300px; height: auto;">
+</div>
+
+
+Work like hell is a group project I was involved in, as one of three Level Designers.
+My Contripution was; Tile placment and map Layout of the entire First Area, As well as Enenmy Playment and pathing, As well as coded the entire first boss fight. All smaller images above was the levels I had worked on and the boss fight 
+
+Itch Page: <a href="https://illdothattomorrowstudios.itch.io/work-like-hell" target="_blank" rel="noopener">Work Like Hell — itch.io</a>
+
