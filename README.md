@@ -49,7 +49,7 @@ These Game Mechanics Include:
   -Dash
 
 Here is a Link to video Showing the Mechanics at play:
-Itch Page: <a href="https://https://youtu.be/UYkIv3KA6Wc" target="_blank" rel="noopener">Video Demonstration — Youtube</a>
+Itch Page: <a href="https://youtu.be/UYkIv3KA6Wc" target="_blank" rel="noopener">Video Demonstration — Youtube</a>
 
 
 # Matte Black (2024 Q2)
