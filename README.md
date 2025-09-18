@@ -41,21 +41,14 @@ This originally made as a University Submission to experiment with GameMechanics
 
 These Game Mechanics Include:
 
--Health Bar and Damaging system
-
--Stamina System
-
--Rasing Lava
-
--Triggers/checkpoints
-
--Enhanced Movement using stamina
-
-  -Sprinting
-  
-  -Double Jump
-  
-  -Dash
+- Health Bar and Damaging system
+- Stamina System
+- Rasing Lava
+- Triggers/checkpoints
+- Enhanced Movement using stamina
+  - Sprinting
+  - Double Jump
+  - Dash
 
 Here is a Link to video Showing the Mechanics at play:
 Itch Page: <a href="https://youtu.be/UYkIv3KA6Wc" target="_blank" rel="noopener">Video Demonstration — Youtube</a>
