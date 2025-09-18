@@ -66,3 +66,25 @@ My Contribution was; Tile placment and map Layout of the entire First Area, As w
 
 Itch Page: <a href="https://illdothattomorrowstudios.itch.io/work-like-hell" target="_blank" rel="noopener">Work Like Hell — itch.io</a>
 
+
+# GrasslandGunner (2022 Q2)
+
+![WorkLikeHell-Screenshot-Main-Menu](Images/WorkLikeHell/WorkLikeHell-Screenshot-MainMenu.png)
+
+<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
+  <img src="Images/WorkLikeHell/WorkLikeHell-Screenshot-Starting.png" alt="WorkLikeHell-Screenshot-Starting" style="width: 300px; height: auto;">
+  <img src="Images/WorkLikeHell/WorkLikeHell-Screenshot-AboveHole.png" alt="WorkLikeHell-Screenshot-AboveHole" style="width: 300px; height: auto;">
+  <img src="Images/WorkLikeHell/WorkLikeHell-Screenshot-FirstEnemy.png" alt="WorkLikeHell-Screenshot-AboveHole" style="width: 300px; height: auto;">
+  <img src="Images/WorkLikeHell/WorkLikeHell-Screenshot-LargeRoomEntrance.png" alt="WorkLikeHell-Screenshot-LargeRoomEntrance" style="width: 300px; height: auto;">
+  <img src="Images/WorkLikeHell/WorkLikeHell-Screenshot-MultipleBoxObstacle.png" alt="WorkLikeHell-Screenshot-MultipleBoxObstacle" style="width: 300px; height: auto;">
+  <img src="Images/WorkLikeHell/WorkLikeHell-Screenshot-SecretRoom.png" alt="WorkLikeHell-Screenshot-SecretRoom" style="width: 300px; height: auto;">
+  <img src="Images/WorkLikeHell/WorkLikeHell-Screenshot-BossEncounter.png" alt="WorkLikeHell-Screenshot-BossEncounter" style="width: 300px; height: auto;">
+</div>
+
+
+Work like hell is a group project I was involved in, as one of three Level Designers.
+
+My Contribution was; Tile placment and map Layout of the entire First Area, As well as Enemy Playment and pathing, As well as coded the entire first boss fight. All smaller images above was the levels I had worked on and the boss fight 
+
+Itch Page: <a href="https://illdothattomorrowstudios.itch.io/work-like-hell" target="_blank" rel="noopener">Work Like Hell — itch.io</a>
+
