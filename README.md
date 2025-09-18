@@ -25,7 +25,7 @@ Itch Page: <a href="https://spectral-cat-dundee.itch.io/coffee-run" target="_bla
 
 # The floor is Lava (2025 Q1)
 
-![Floor-Is-lava-GameMechanicsTitle](Images/Floor-Is-Lava/Floor-Is-Lava-GameMechanics-Title.png)
+![Floor-Is-lava-GameMechanics-Title](Images/Floor-Is-Lava/Floor-Is-Lava-GameMechanics-Title.png)
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
   <img src="Images/Floor-Is-Lava/Floor-Is-Lava-GameMechanics-Controls.png" alt="Floor-Is-Lava-GameMechanics-Controls" style="width: 300px; height: auto;">
