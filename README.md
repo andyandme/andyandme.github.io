@@ -67,7 +67,7 @@ My Contribution was; Tile placment and map Layout of the entire First Area, As w
 Itch Page: <a href="https://illdothattomorrowstudios.itch.io/work-like-hell" target="_blank" rel="noopener">Work Like Hell — itch.io</a>
 
 
-# GrasslandGunner (2022 Q2)
+# Grassland Gunner (2022 Q2)
 
 ![GrasslandGunner-Screenshot-Main-Menu](Images/GrasslandGunner/GrasslandGunner-MainMenu.png)
 
@@ -81,9 +81,9 @@ Itch Page: <a href="https://illdothattomorrowstudios.itch.io/work-like-hell" tar
 </div>
 
 
-Work like hell is a group project I was involved in, as one of three Level Designers.
+Grassland Gunner was my first ever solo project, With assests given for free on Itch.io.
 
-My Contribution was; Tile placment and map Layout of the entire First Area, As well as Enemy Playment and pathing, As well as coded the entire first boss fight. All smaller images above was the levels I had worked on and the boss fight 
+My Contribution was; The Entire Project aside form the art work and music. One thing Im proud about that doesnt show on screenshots is the music progression. The higher the round the faster the music gets aswell as lyrics added to the music when reaching far enough.
 
-Itch Page: <a href="https://illdothattomorrowstudios.itch.io/work-like-hell" target="_blank" rel="noopener">Work Like Hell — itch.io</a>
+Itch Page: <a href="https://andyandme.itch.io/grassland-gunner" target="_blank" rel="noopener">Grassland Gunner — itch.io</a>
 
