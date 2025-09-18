@@ -25,12 +25,12 @@ Itch Page: <a href="https://spectral-cat-dundee.itch.io/coffee-run" target="_bla
 
 # The floor is Lava (2025 Q1)
 
-![The-Floor-Is-Lava-Main-Title](Images/Floor-Is-Lava/Floor-Is-Lava-GameMechanicsTitle.png)
+![The-Floor-Is-Lava-Main-Title](Images/Floor-Is-Lava/Floor-Is-lava-GameMechanicsTitle.png)
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
-  <img src="Images/Floor-Is-Lava/Floor-Is-Lava-GameMechanics-Controls.png" alt="Floor-Is-Lava-GameMechanics-Controls" style="width: 300px; height: auto;">
-  <img src="Images/Floor-Is-Lava/Floor-Is-Lava-GameMechanics-Early.png" alt="Floor-Is-Lava-GameMechanics-Early" style="width: 300px; height: auto;">
-  <img src="Images/Floor-Is-Lava/Floor-Is-Lava-GameMechanics-LookUp.png" alt="Floor-Is-Lava-GameMechanics-LookUp" style="width: 300px; height: auto;">
+  <img src="Images/Floor-Is-Lava/Floor-Is-lava-GameMechanics-Controls.png" alt="Floor-Is-Lava-GameMechanics-Controls" style="width: 300px; height: auto;">
+  <img src="Images/Floor-Is-Lava/Floor-Is-lava-GameMechanics-Early.png" alt="Floor-Is-Lava-GameMechanics-Early" style="width: 300px; height: auto;">
+  <img src="Images/Floor-Is-Lava/Floor-Is-lava-GameMechanics-LookUp.png" alt="Floor-Is-Lava-GameMechanics-LookUp" style="width: 300px; height: auto;">
 
 </div>
 
