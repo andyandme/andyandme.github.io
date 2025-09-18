@@ -18,7 +18,8 @@
 
 
 Coffee Run is a group project I was involved in, as one of three programers.
-My contripution was; all forms of interaction between bean - Coffee machine - customer window, all menu ui abd functionality, The basic core game loop, a Progression System (Day/next level system), Implemented almost all particle effects, I even added aditional Dificulty and more core gameplay with my addition of functioning syrups.
+
+My contribution was; all forms of interaction between bean - Coffee machine - customer window, all menu ui abd functionality, The basic core game loop, a Progression System (Day/next level system), Implemented almost all particle effects, I even added aditional Dificulty and more core gameplay with my addition of functioning syrups.
 
 Itch Page: <a href="https://spectral-cat-dundee.itch.io/coffee-run" target="_blank" rel="noopener">Coffee Run — itch.io</a>
 
@@ -38,7 +39,8 @@ Itch Page: <a href="https://spectral-cat-dundee.itch.io/coffee-run" target="_bla
 
 
 Matte Black is a group project I was involved in, as one of four Programmers.
-My Contripution was; Player Jumping logic, Card Powers implementation, Card Management, Players Death Logic, Player/Enemy Restart Logic, Leaderboard Logic and implementation, Bonus Drunk mode implemented, Card UI, Enemy Health UI, functional timer UI, Start and End game scenes implemented and functional, Sword slash UI implementation  
+
+My Contribution was; Player Jumping logic, Card Powers implementation, Card Management, Players Death Logic, Player/Enemy Restart Logic, Leaderboard Logic and implementation, Bonus Drunk mode implemented, Card UI, Enemy Health UI, functional timer UI, Start and End game scenes implemented and functional, Sword slash UI implementation  
 
 This was made on a developer kit which an NDA was in place so there is no public access to this project.
 
@@ -50,6 +52,7 @@ This was made on a developer kit which an NDA was in place so there is no public
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
   <img src="Images/WorkLikeHell/WorkLikeHell-Screenshot-Starting.png" alt="WorkLikeHell-Screenshot-Starting" style="width: 300px; height: auto;">
   <img src="Images/WorkLikeHell/WorkLikeHell-Screenshot-AboveHole.png" alt="WorkLikeHell-Screenshot-AboveHole" style="width: 300px; height: auto;">
+  <img src="Images/WorkLikeHell/WorkLikeHell-Screenshot-FirstEnemy.png" alt="WorkLikeHell-Screenshot-AboveHole" style="width: 300px; height: auto;">
   <img src="Images/WorkLikeHell/WorkLikeHell-Screenshot-LargeRoomEntrance.png" alt="WorkLikeHell-Screenshot-LargeRoomEntrance" style="width: 300px; height: auto;">
   <img src="Images/WorkLikeHell/WorkLikeHell-Screenshot-MultipleBoxObstacle.png" alt="WorkLikeHell-Screenshot-MultipleBoxObstacle" style="width: 300px; height: auto;">
   <img src="Images/WorkLikeHell/WorkLikeHell-Screenshot-SecretRoom.png" alt="WorkLikeHell-Screenshot-SecretRoom" style="width: 300px; height: auto;">
@@ -58,7 +61,8 @@ This was made on a developer kit which an NDA was in place so there is no public
 
 
 Work like hell is a group project I was involved in, as one of three Level Designers.
-My Contripution was; Tile placment and map Layout of the entire First Area, As well as Enenmy Playment and pathing, As well as coded the entire first boss fight. All smaller images above was the levels I had worked on and the boss fight 
+
+My Contribution was; Tile placment and map Layout of the entire First Area, As well as Enemy Playment and pathing, As well as coded the entire first boss fight. All smaller images above was the levels I had worked on and the boss fight 
 
 Itch Page: <a href="https://illdothattomorrowstudios.itch.io/work-like-hell" target="_blank" rel="noopener">Work Like Hell — itch.io</a>
 
