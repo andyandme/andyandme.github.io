@@ -128,7 +128,7 @@ Itch Page: <a href="https://illdothattomorrowstudios.itch.io/work-like-hell" tar
 </div>
 
 
-This was university Submission, Showing my ability to use OpenGL API. The 3D scene consits of Lighting effects from multiple sources, A mirror reflecting the room, A model used on a rotating train, Textures correctly implemented with correct lighting results.
+This was university Submission, Showing my ability to use OpenGL API. The 3D scene consits of Lighting effects from multiple sources, A mirror reflecting the room, A model used on a rotating train, Textures correctly implemented with correct lighting results, A wireframe mode and a controllable camera with an option to used a fixed one.
 
 
 # Grassland Gunner (2023 Q2)
