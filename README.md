@@ -56,12 +56,13 @@ Here is a Link to video Showing the Mechanics at play:
 
 # AI (Fuzzy Logic) (2024 Q4)
 
-![FuzzyLogic-AI-Cube](Images/FloorIsLava/Floor-Is-lava-GameMechanicsTitle.png)
+![FuzzyLogic-AI-Cube](Images/FuzzyLogic/FuzzyLogic-In-Unity-Start.png)
 
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
-  <img src="Images/FloorIsLava/Floor-Is-lava-GameMechanics-Controls.png" alt="Floor-Is-lava-GameMechanics-Controls" style="width: 300px; height: auto;">
-  <img src="Images/FloorIsLava/Floor-Is-lava-GameMechanics-Early.png" alt="Floor-Is-lava-GameMechanics-Early" style="width: 300px; height: auto;">
-  <img src="Images/FloorIsLava/Floor-Is-lava-GameMechanics-LookUp.png" alt="Floor-Is-lava-GameMechanics-LookUp" style="width: 300px; height: auto;">
+  <img src="Images/FuzzyLogic/FuzzyLogic-Code-Rules.png" alt="FuzzyLogic-Code-Rules" style="width: 300px; height: auto;">
+  <img src="Images/FuzzyLogic/FuzzyLogic-In-Unity-Sleep.png" alt="FuzzyLogic-In-Unity-Sleep" style="width: 300px; height: auto;">
+  <img src="Images/FuzzyLogic/FuzzyLogic-In-Unity-Eat.png" alt="FuzzyLogic-In-Unity-Eat" style="width: 300px; height: auto;">
+  <img src="Images/FuzzyLogic/FuzzyLogic-In-Unity-Gym.png" alt="FuzzyLogic-In-Unity-Gym" style="width: 300px; height: auto;">
 
 </div>
 
