@@ -114,6 +114,23 @@ My Contribution was; Tile placment and map Layout of the entire First Area, As w
 Itch Page: <a href="https://illdothattomorrowstudios.itch.io/work-like-hell" target="_blank" rel="noopener">Work Like Hell — itch.io</a>
 
 
+# 3D Scene using OpenGL API (2023 Q4)
+
+![GrasslandGunner-Screenshot-Main-Menu](Images/GrasslandGunner/GrasslandGunner-MainMenu.png)
+
+<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px; border: 1px solid #ddd;">
+  <img src="Images/GrasslandGunner/GrasslandGunner-Credits.png" alt="GrasslandGunner-Screenshot-Credits" style="width: 300px; height: auto;">
+  <img src="Images/GrasslandGunner/GrasslandGunner-Controls.png" alt="GrasslandGunner-Controls" style="width: 300px; height: auto;">
+  <img src="Images/GrasslandGunner/GrasslandGunner-Round1.png" alt="GrasslandGunner-Round1" style="width: 300px; height: auto;">
+  <img src="Images/GrasslandGunner/GrasslandGunner-Round1-Bullet.png" alt="GrasslandGunner-Screenshot-Round1-Bullet" style="width: 300px; height: auto;">
+  <img src="Images/GrasslandGunner/GrasslandGunner-Round2.png" alt="GrasslandGunner-Screenshot-Round2" style="width: 300px; height: auto;">
+  <img src="Images/GrasslandGunner/GrasslandGunner-Upgrades.png" alt="GrasslandGunner-Screenshot-Upgrades" style="width: 300px; height: auto;">
+</div>
+
+
+This was university Submission, Showing my ability to use OpenGL API. The 3D scene consits of Lighting effects from multiple sources, A mirror reflecting the room, A model used on a rotating train, Textures correctly implemented with correct lighting results.
+
+
 # Grassland Gunner (2023 Q2)
 
 ![GrasslandGunner-Screenshot-Main-Menu](Images/GrasslandGunner/GrasslandGunner-MainMenu.png)
