@@ -647,3 +647,54 @@ body.lightbox-open {
     right: 8px;
   }
 }
+
+/* ============================================================
+   Video demonstration full-frame fix
+   Put this at the very bottom of styles.css.
+   ============================================================ */
+
+.video-embed {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  min-height: 420px;
+  margin-top: 18px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #000;
+}
+
+.video-embed iframe,
+.video-embed video {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 420px;
+  border: 0;
+  object-fit: contain;
+  background: #000;
+}
+
+@media (min-width: 1100px) {
+  .video-embed {
+    min-height: 560px;
+  }
+
+  .video-embed iframe,
+  .video-embed video {
+    min-height: 560px;
+  }
+}
+
+@media (max-width: 640px) {
+  .video-embed {
+    min-height: 240px;
+  }
+
+  .video-embed iframe,
+  .video-embed video {
+    min-height: 240px;
+  }
+}
