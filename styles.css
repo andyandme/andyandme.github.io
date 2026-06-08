@@ -461,3 +461,173 @@ h3 {
     min-height: auto;
   }
 }
+
+
+.video-embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.045);
+}
+
+.video-embed iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.video-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  text-align: center;
+  color: var(--muted);
+  min-height: 280px;
+}
+
+/* ============================================================
+   Video embed sizing fix
+   ============================================================ */
+
+.video-embed {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-top: 18px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.045);
+}
+
+.video-embed iframe,
+.video-embed video {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+  border: 0;
+}
+
+/* If an iframe was pasted directly into the project section instead of inside .video-embed */
+.case-study__section > iframe,
+.case-study__section iframe[src*="youtube.com"],
+.case-study__section iframe[src*="youtube-nocookie.com"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: min(56.25vw, 640px) !important;
+  min-height: 360px;
+  display: block;
+  border: 0;
+  border-radius: 18px;
+}
+
+/* If the original placeholder class is still on the video wrapper after adding an iframe */
+.video-embed.video-placeholder:has(iframe) {
+  padding: 0;
+  display: block;
+  min-height: 0;
+}
+
+@media (max-width: 640px) {
+  .case-study__section > iframe,
+  .case-study__section iframe[src*="youtube.com"],
+  .case-study__section iframe[src*="youtube-nocookie.com"] {
+    min-height: 220px;
+  }
+}
+
+/* ============================================================
+   Click-to-enlarge gallery lightbox
+   ============================================================ */
+
+.gallery img {
+  cursor: zoom-in;
+  transition: transform 160ms ease, border-color 160ms ease, opacity 160ms ease;
+}
+
+.gallery img:hover {
+  transform: translateY(-2px);
+  border-color: rgba(119, 226, 195, 0.55);
+  opacity: 0.92;
+}
+
+body.lightbox-open {
+  overflow: hidden;
+}
+
+.image-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  background: rgba(3, 7, 18, 0.88);
+  backdrop-filter: blur(10px);
+}
+
+.image-lightbox.is-open {
+  display: flex;
+}
+
+.image-lightbox__inner {
+  position: relative;
+  width: min(1200px, 96vw);
+  max-height: 92vh;
+  display: grid;
+  gap: 12px;
+}
+
+.image-lightbox__image {
+  width: 100%;
+  max-height: 84vh;
+  object-fit: contain;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.04);
+  box-shadow: var(--shadow);
+}
+
+.image-lightbox__caption {
+  margin: 0;
+  color: var(--muted);
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.image-lightbox__close {
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(255,255,255,0.22);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--text);
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+.image-lightbox__close:hover {
+  background: var(--card-hover);
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .image-lightbox {
+    padding: 16px;
+  }
+
+  .image-lightbox__close {
+    top: 8px;
+    right: 8px;
+  }
+}
