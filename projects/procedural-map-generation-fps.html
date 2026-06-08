@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Procedural Map Generation for Competitive FPS Games | Andrew Burt Portfolio</title>
+  <meta name="description" content="Dissertation artefact: a Unity FPS prototype for rule-based procedural generation and evaluation of competitive 3D FPS maps.">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <nav class="case-study__nav" aria-label="Project navigation">
+    <a class="back-link" href="../index.html#projects">← Back to projects</a>
+  </nav>
+
+  <main class="case-study">
+    <article>
+      <header class="case-study__hero">
+        <img src="../Images/ProceduralMapGenerationFPS/18-later-procedural-output.png" alt="Procedurally generated FPS map with buildings, cover, windows, and spawn positions">
+        <div class="case-study__intro">
+          <p class="eyebrow">2026 Q2 · Dissertation Artefact</p>
+          <h1>Procedural Map Generation for Competitive FPS Games</h1>
+          <p class="hero__text">
+            A Unity-based dissertation artefact investigating whether rule-based procedural generation can create small competitive
+            3D FPS maps that approach the perceived quality of manually designed maps.
+          </p>
+          <div class="case-study__meta">
+            <span class="pill">Unity</span>
+            <span class="pill">C#</span>
+            <span class="pill">Procedural generation</span>
+            <span class="pill">FPS map design</span>
+            <span class="pill">User evaluation</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="case-study__layout">
+        <div class="case-study__main">
+          <section class="case-study__section">
+            <h2>Project overview</h2>
+            <p>
+              This project was my honours dissertation artefact. I built a playable Unity FPS prototype with three map modes:
+              two manually made comparison maps and one procedurally generated map mode. The goal was not just to create random
+              spaces, but to generate playable competitive FPS layouts using explicit design rules and validation checks.
+            </p>
+            <p>
+              The generator uses a constructive, rule-based pipeline. It creates a seeded walkable footprint, converts it into
+              modular map geometry, places spawns, validates connectivity, adds buildings, doorways, stairs, windows, cover and
+              vertical structure, then rejects layouts that fail minimum playability or flow constraints.
+            </p>
+
+            <div class="project-highlights">
+              <div class="project-highlight">
+                <strong>Research focus</strong>
+                <span>Can rule-based procedural FPS maps approach the perceived quality of manually designed maps?</span>
+              </div>
+              <div class="project-highlight">
+                <strong>Evaluation</strong>
+                <span>14 participants across 7 one-versus-one playtest sessions.</span>
+              </div>
+              <div class="project-highlight">
+                <strong>Comparison set</strong>
+                <span>2 manual maps and 3 fixed-seed procedural maps.</span>
+              </div>
+              <div class="project-highlight">
+                <strong>Main finding</strong>
+                <span>Manual maps performed better overall, but one procedural map performed close to the manual maps.</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="case-study__section">
+            <h2>What I implemented</h2>
+            <ul>
+              <li><strong>Rule-based procedural generator:</strong> produced seeded 3D FPS map layouts through explicit construction rules rather than machine learning or search-based generation.</li>
+              <li><strong>Modular prefab pipeline:</strong> built reusable floors, walls, doors, stairs, windows, ceilings, cover blocks and spawn markers using Unity and ProBuilder.</li>
+              <li><strong>Walkable footprint generation:</strong> generated a reproducible ground-level footprint before converting it into playable geometry.</li>
+              <li><strong>Bitmask wall conversion:</strong> analysed neighbouring grid cells to automatically place walls, corners, floors and boundary geometry.</li>
+              <li><strong>Spawn placement:</strong> selected spawn points from the furthest valid walkable cells to reduce immediate unfair engagements.</li>
+              <li><strong>Validation system:</strong> rejected disconnected or poor-quality layouts using checks for connectivity, dead-end limits, excessive straight runs and general playability.</li>
+              <li><strong>FPS-specific layout features:</strong> added buildings, doorways, windows, verticality, stairs, indoor cover and exterior cover to control sightlines and route variety.</li>
+              <li><strong>Manual comparison maps:</strong> built two hand-authored maps using the same modular constraints so generated maps could be compared fairly.</li>
+              <li><strong>Multiplayer testing support:</strong> added host/client testing screens, map selection, health HUD, end-of-round flow and a best-of-three test structure.</li>
+              <li><strong>Evaluation workflow:</strong> collected survey and match-log data covering flow, fairness, route support, enjoyment, map identification, round duration and time to first engagement.</li>
+            </ul>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Technical focus</h2>
+            <p>
+              The strongest part of the artefact is the way FPS design principles were translated into procedural rules.
+              Instead of only checking whether a map could be walked through, the system also considered map quality concerns:
+              spawn separation, route choice, sightline control, cover placement, dead-end reduction and tactical readability.
+            </p>
+            <p>
+              The project also demonstrates an iterative development process. The generator began with basic walkable shapes,
+              then evolved into a more complete system with building interiors, vertical routes, windows, door logic, cover
+              distribution and reproducible seeded maps for participant testing.
+            </p>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Evaluation summary</h2>
+            <p>
+              The dissertation compared two manually constructed maps against three fixed-seed procedurally generated maps.
+              The manual maps were generally rated more favourably for flow, enjoyment and overall ranking, but the procedural
+              maps were often still judged as coherent, understandable and fair.
+            </p>
+            <p>
+              The most important result was that one procedural map performed close to the manual maps across several measures
+              and was not easily recognised as procedural. This suggests that the rule-based approach can produce competitive
+              FPS maps that approach manual quality, although consistency across generated seeds remains the main limitation.
+            </p>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Video demonstration</h2>
+            <p>
+              This video demonstrates the procedural generation artefact and the FPS prototype context used for testing.
+            </p>
+            <div class="video-embed">
+              <iframe
+                src="https://www.youtube.com/embed/lN-w2WvjmJs"
+                title="Procedural Map Generation for Competitive FPS Games video demonstration"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Gallery</h2>
+            <div class="gallery">
+              <img src="../Images/ProceduralMapGenerationFPS/01-generation-mode.png" alt="Unity inspector showing manual and procedurally generated map modes">
+              <img src="../Images/ProceduralMapGenerationFPS/03-initial-test-map.png" alt="Initial modular FPS test map created before procedural generation">
+              <img src="../Images/ProceduralMapGenerationFPS/08-bitmasked-footprint.png" alt="Walkable footprint after automatic wall and boundary generation">
+              <img src="../Images/ProceduralMapGenerationFPS/11-validation-failure-example.png" alt="Validation failure example showing a rejected disconnected layout">
+              <img src="../Images/ProceduralMapGenerationFPS/16-layout-cover-windows.png" alt="Generated layout with cover, windows, buildings, and colour-coded elements">
+              <img src="../Images/ProceduralMapGenerationFPS/17-stairs-ceiling-system.png" alt="Interior stairs and ceiling system supporting vertical movement">
+              <img src="../Images/ProceduralMapGenerationFPS/18-later-procedural-output.png" alt="Later procedural output with buildings, cover, windows and spawn positions">
+              <img src="../Images/ProceduralMapGenerationFPS/20-arrival-layout-drawing.png" alt="Manual Map 1 layout drawing based on an FPS map reference">
+              <img src="../Images/ProceduralMapGenerationFPS/21-manual-map-1-final.png" alt="Final Manual Map 1 built inside Unity">
+              <img src="../Images/ProceduralMapGenerationFPS/23-vacant-layout-drawing.png" alt="Manual Map 2 layout drawing adapted to the modular tile system">
+              <img src="../Images/ProceduralMapGenerationFPS/24-manual-map-2-final.png" alt="Final Manual Map 2 built inside Unity">
+              <img src="../Images/ProceduralMapGenerationFPS/30-in-game-hud.png" alt="In-game HUD showing health bars, weapon view, and first-person testing">
+              <img src="../Images/ProceduralMapGenerationFPS/31-procedural-map-1.png" alt="Procedural Map 1 used in participant testing">
+              <img src="../Images/ProceduralMapGenerationFPS/32-procedural-map-2.png" alt="Procedural Map 2 used in participant testing">
+              <img src="../Images/ProceduralMapGenerationFPS/33-procedural-map-3.png" alt="Procedural Map 3 used in participant testing">
+            </div>
+          </section>
+        </div>
+
+        <aside class="case-study__side">
+          <section class="case-study__section">
+            <h2>Skills shown</h2>
+            <div class="tag-list">
+              <span class="pill">Unity</span>
+              <span class="pill">C#</span>
+              <span class="pill">Procedural content generation</span>
+              <span class="pill">FPS level design</span>
+              <span class="pill">Rule-based systems</span>
+              <span class="pill">Validation algorithms</span>
+              <span class="pill">Grid-based generation</span>
+              <span class="pill">Multiplayer testing</span>
+              <span class="pill">Data collection</span>
+              <span class="pill">User evaluation</span>
+            </div>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Project type</h2>
+            <p>
+              Solo dissertation artefact for BSc (Hons) Computer Games Applications Development. I designed and implemented
+              the generator, prototype systems, testing interface, comparison maps and evaluation workflow.
+            </p>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Best images to show</h2>
+            <ul>
+              <li><strong>Hero/card:</strong> Later procedural map output with buildings, windows and cover.</li>
+              <li><strong>Development process:</strong> generation mode, initial map, bitmasked footprint and validation failure.</li>
+              <li><strong>Feature proof:</strong> cover/windows layout and stair/ceiling system.</li>
+              <li><strong>Comparison proof:</strong> manual map drawings and final manual maps.</li>
+              <li><strong>Evaluation proof:</strong> HUD screenshot and the three fixed-seed procedural maps.</li>
+            </ul>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Public gallery note</h2>
+            <p>
+              I left the third-party reference-map screenshots out of the public project gallery and used your own drawings and
+              Unity screenshots instead. That keeps the portfolio cleaner and avoids leaning on copyrighted reference material.
+            </p>
+          </section>
+        </aside>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>© Andrew Burt</p>
+    <div class="footer__links">
+      <a href="mailto:andrewburt02@gmail.com">Email</a>
+      <a href="https://github.com/andyandme" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://andyandme.itch.io" target="_blank" rel="noopener">itch.io</a>
+    </div>
+  </footer>
+
+  <script src="../lightbox.js"></script>
+</body>
+</html>
