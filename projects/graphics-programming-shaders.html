@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Graphics Programming with Shaders | Andrew Burt Portfolio</title>
+  <meta name="description" content="A university graphics programming project using C++, HLSL shaders, vertex manipulation, height-map terrain, shadow mapping, and edge-detection post-processing.">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <nav class="case-study__nav" aria-label="Project navigation">
+    <a class="back-link" href="../index.html#projects">← Back to projects</a>
+  </nav>
+
+  <main class="case-study">
+    <article>
+      <header class="case-study__hero">
+        <img src="../Images/GraphicsProgrammingShaders/graphics-shaders-hero-shadow-scene.png" alt="Graphics programming scene showing water, terrain, teapot model and shadows">
+        <div class="case-study__intro">
+          <p class="eyebrow">2024 Q4 · Solo University Project</p>
+          <h1>Graphics Programming with Shaders</h1>
+          <p class="hero__text">
+            A graphics programming coursework project focused on writing and integrating custom shaders for vertex manipulation,
+            height-map terrain, animated water, lighting, shadow mapping, and post-processing.
+          </p>
+          <div class="case-study__meta">
+            <span class="pill">C++</span>
+            <span class="pill">HLSL</span>
+            <span class="pill">Shader Programming</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="case-study__layout">
+        <div class="case-study__main">
+          <section class="case-study__section">
+            <h2>Project overview</h2>
+            <p>
+              This project was produced for my university Graphics Programming module. The aim was to demonstrate practical shader
+              implementation through a rendered scene containing animated water, height-map terrain, lighting, shadows, and a
+              post-process edge-detection effect.
+            </p>
+            <p>
+              The project used multiple shader stages and render passes, with C++ application code managing the scene setup,
+              shader parameters, depth passes, and adjustable values used to test the visual result in real time.
+            </p>
+          </section>
+
+          <section class="case-study__section">
+            <h2>What I implemented</h2>
+            <ul>
+              <li>
+                <strong>Dynamic water surface deformation:</strong> created animated ocean waves through sinusoidal vertex
+                manipulation, using amplitude, frequency, speed, and time-based movement.
+              </li>
+              <li>
+                <strong>Height-map terrain rendering:</strong> displaced terrain vertices using a height map to create a more
+                varied 3D surface from texture data.
+              </li>
+              <li>
+                <strong>Lighting and shadow mapping:</strong> implemented directional-light shadow behaviour using depth passes
+                and shader-side light-space position calculations.
+              </li>
+              <li>
+                <strong>Vertex and texture shader integration:</strong> passed transformed positions, texture coordinates,
+                normals, and depth values through the graphics pipeline for later shader stages.
+              </li>
+              <li>
+                <strong>Edge-detection post-processing:</strong> added a Sobel-style edge-detection pass that samples neighbouring
+                pixels, calculates gradient strength, and filters the final colour output.
+              </li>
+              <li>
+                <strong>Runtime experimentation:</strong> exposed values such as wave amplitude, frequency, speed, and edge strength
+                so the visual output could be adjusted and evaluated.
+              </li>
+            </ul>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Technical focus</h2>
+            <p>
+              The strongest part of the project was the combination of vertex manipulation and shader-controlled rendering effects.
+              The water shader produced a clear animated surface, while the terrain shader used height data to give the scene more
+              depth and variation. The shadow and post-process work extended the scene beyond basic rendering by adding depth-based
+              lighting information and a screen-space visual effect.
+            </p>
+            <p>
+              The project also gave me practical experience evaluating graphical trade-offs. Some features worked better than others:
+              the water deformation was visually clear, while the terrain and shadow results depended heavily on scene composition,
+              height-map quality, and the positioning of the light and camera. This made the project useful not only as a shader
+              implementation exercise, but also as a lesson in how technical graphics work needs strong scene presentation to show
+              the effect properly.
+            </p>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Gallery</h2>
+            <div class="gallery">
+              <img src="../Images/GraphicsProgrammingShaders/graphics-shaders-water-waves.png" alt="Animated water waves created through vertex manipulation">
+              <img src="../Images/GraphicsProgrammingShaders/graphics-shaders-terrain-heightmap.png" alt="Height-map terrain rendering">
+              <img src="../Images/GraphicsProgrammingShaders/graphics-shaders-coloured-shadows.png" alt="Directional shadow experiment on a teapot model">
+              <img src="../Images/GraphicsProgrammingShaders/graphics-shaders-hero-shadow-scene.png" alt="Scene showing shadows from waves, terrain and model">
+              <img src="../Images/GraphicsProgrammingShaders/graphics-shaders-edge-off.png" alt="Scene without edge detection active">
+              <img src="../Images/GraphicsProgrammingShaders/graphics-shaders-edge-on.png" alt="Scene with edge detection active">
+            </div>
+          </section>
+        </div>
+
+        <aside class="case-study__side">
+          <section class="case-study__section">
+            <h2>Skills shown</h2>
+            <div class="tag-list">
+              <span class="pill">C++</span>
+              <span class="pill">HLSL</span>
+              <span class="pill">Vertex shaders</span>
+              <span class="pill">Pixel shaders</span>
+              <span class="pill">Height maps</span>
+              <span class="pill">Shadow mapping</span>
+              <span class="pill">Post-processing</span>
+              <span class="pill">Render passes</span>
+            </div>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Project type</h2>
+            <p>Solo university coursework project for a Graphics Programming module.</p>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Best images to use</h2>
+            <ul>
+              <li><strong>Hero/card:</strong> Figure 6 — shadows from waves, teapot, and terrain.</li>
+              <li><strong>Gallery:</strong> Figures 1.1, 3.1, 5, 6, 8, and 9.</li>
+              <li><strong>Optional technical proof:</strong> Figures 2.2, 7, and 10 if you want to show shader code.</li>
+            </ul>
+          </section>
+        </aside>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>© Andrew Burt</p>
+    <div class="footer__links">
+      <a href="mailto:andrewburt02@gmail.com">Email</a>
+      <a href="https://github.com/andyandme" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://andyandme.itch.io" target="_blank" rel="noopener">itch.io</a>
+    </div>
+  </footer>
+</body>
+</html>
