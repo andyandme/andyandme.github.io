@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Grassland Gunner | Andrew Burt Portfolio</title>
-  <meta name="description" content="My first solo game project: an SFML shooter where I implemented the full game apart from free external art and music assets.">
+  <meta name="description" content="Grassland Gunner: Andrew Burt's first solo game, now rebuilt as an SFML/C++ action shooter with class, weapon, perk, profile, co-op and audio systems.">
   <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
@@ -15,14 +15,22 @@
   <main class="case-study">
     <article>
       <header class="case-study__hero">
-        <img src="../Images/GrasslandGunner/GrasslandGunner-MainMenu.png" alt="Grassland Gunner screenshot">
+        <img src="../Images/GrasslandGunner2026/08-solo-gameplay.png" alt="Grassland Gunner 2026 solo gameplay screenshot">
         <div class="case-study__intro">
-          <p class="eyebrow">2023 Q2 · Solo Developer</p>
+          <p class="eyebrow">2023 Q2 – Ongoing · Major rebuild in 2026</p>
           <h1>Grassland Gunner</h1>
-          <p class="hero__text">My first solo game project: an SFML shooter where I implemented the full game apart from free external art and music assets.</p>
+          <p class="hero__text">
+            Grassland Gunner began as my first solo game project in 2023. In 2026 I returned to it and rebuilt it into a much
+            larger SFML/C++ action shooter with persistent profiles, class progression, weapon trees, perk variants, local co-op,
+            improved UI flow and a custom dynamic soundscape system.
+          </p>
           <div class="case-study__meta">
+            <span class="pill">C++</span>
             <span class="pill">SFML</span>
-            <span class="pill">Solo Developer</span>
+            <span class="pill">Solo developer</span>
+            <span class="pill">Action shooter</span>
+            <span class="pill">Local co-op</span>
+            <span class="pill">Dynamic audio</span>
           </div>
         </div>
       </header>
@@ -31,28 +39,131 @@
         <div class="case-study__main">
           <section class="case-study__section">
             <h2>Project overview</h2>
-            <p>Grassland Gunner was my first solo project, made with SFML using free art and music assets. It gave me experience building a complete game loop independently.</p>
-            
+            <p>
+              The original version of Grassland Gunner was a small wave-survival shooter and my first complete solo game. The
+              current version is still recognisably the same project, but the scope has expanded heavily. It now functions more
+              like a progression-focused action game with character specialisation, weapon builds, run structure, profile data and
+              co-op support.
+            </p>
+            <p>
+              I implemented the project in C++ using SFML. External art and music assets are used, but the game systems,
+              progression logic, UI flow, audio management, local co-op support and gameplay implementation are my own work.
+            </p>
+
+            <div class="project-highlights">
+              <div class="project-highlight">
+                <strong>Original version</strong>
+                <span>First solo project: a basic SFML wave shooter with free art and music assets.</span>
+              </div>
+              <div class="project-highlight">
+                <strong>2026 rebuild</strong>
+                <span>A substantially expanded action shooter with build progression and deeper systems.</span>
+              </div>
+              <div class="project-highlight">
+                <strong>Current focus</strong>
+                <span>Weapon feel, specialist progression, local co-op, profile persistence and audio readability.</span>
+              </div>
+              <div class="project-highlight">
+                <strong>Audio challenge</strong>
+                <span>Dynamic soundscape management for 100+ possible sound-emitting entities.</span>
+              </div>
+            </div>
           </section>
 
           <section class="case-study__section">
-            <h2>My contribution</h2>
+            <h2>2026 rebuild features</h2>
             <ul>
-            <li>Built the full game project apart from the external art and music assets.</li>
-            <li>Implemented menus, controls, rounds, upgrades, shooting, and progression.</li>
-            <li>Added dynamic music progression where later rounds increase the music speed and introduce lyrics.</li>
+              <li><strong>Profile system:</strong> added multiple player profiles with unlock progress, profile selection and profile deletion.</li>
+              <li><strong>Menu flow:</strong> rebuilt the main menu, play menu, profile screens, settings and run-over flow.</li>
+              <li><strong>Specialist class tree:</strong> added a class-selection tree with unlockable specialist paths and variant selection.</li>
+              <li><strong>Weapon progression trees:</strong> added ranged and melee weapon trees with tiered unlocks, selected weapon stats and weapon-specific upgrade information.</li>
+              <li><strong>Perk system:</strong> added hidden perk choices, unlock requirements and regular/pro/elite variants.</li>
+              <li><strong>Run structure:</strong> added restart, new run, save run and end-run flows to support repeatable progression.</li>
+              <li><strong>Combat readability:</strong> improved health bars, ammo display, weapon XP, round display, crosshair feedback and player-facing HUD information.</li>
+              <li><strong>Local co-op:</strong> added two-player local co-op support with separate HUD information and split-screen presentation.</li>
+              <li><strong>Pause/settings menu:</strong> added in-run pause controls, volume sliders and category-level audio toggles.</li>
+              <li><strong>Dynamic soundscape:</strong> implemented a sound-management layer that prioritises and culls sounds instead of playing every requested sound at once.</li>
             </ul>
           </section>
 
           <section class="case-study__section">
-            <h2>Gallery</h2>
+            <h2>Dynamic soundscape management</h2>
+            <p>
+              One of the most significant 2026 additions was a custom soundscape-management system for an audio programming
+              challenge. The brief required a game with more than 100 possible sound-emitting entities of varying importance, with
+              runtime culling and mix control so the most important sounds remained audible.
+            </p>
+            <p>
+              The project separates gameplay events from final audio playback. Gameplay systems request sounds, then the
+              SoundscapeManager decides whether each sound should play, be replaced, or be culled. The system uses a fixed voice
+              limit, priority ordering, category volumes, panning, attenuation and runtime controls to keep the mix readable under
+              stress.
+            </p>
+            <ul>
+              <li><strong>Voice limit:</strong> a 32-voice cap prevents the game from trying to play every sound at once.</li>
+              <li><strong>Priority order:</strong> gunfire is highest priority, followed by footsteps, enemy death sounds and lower-priority enemy noise.</li>
+              <li><strong>Replacement logic:</strong> if all voices are busy, a higher-priority new sound can replace a lower-priority active sound.</li>
+              <li><strong>Category control:</strong> music, player SFX, enemy SFX and weapon SFX can be independently adjusted or muted.</li>
+              <li><strong>Reactive audio:</strong> reload pitch is tied to reload duration, and footstep timing responds to movement speed.</li>
+            </ul>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Why this update strengthens the project</h2>
+            <p>
+              The 2023 version showed that I could complete a simple solo game. The 2026 rebuild shows a much stronger level of
+              engineering and design maturity: persistent data, scalable menus, build trees, local multiplayer, audio prioritisation
+              and more deliberate player feedback systems. It is now a better portfolio piece because it demonstrates how the same
+              project evolved as my programming ability improved.
+            </p>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Video demonstration</h2>
+            <p>
+              This video demonstrates the audio-programming version of the project and the dynamic soundscape systems added during
+              the 2026 rebuild.
+            </p>
+            <div class="video-embed">
+              <iframe
+                src="https://www.youtube.com/embed/KuG0OEFQmao"
+                title="Grassland Gunner 2026 audio programming video demonstration"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </section>
+
+          <section class="case-study__section">
+            <h2>2026 rebuild gallery</h2>
             <div class="gallery">
-          <img src="../Images/GrasslandGunner/GrasslandGunner-Credits.png" alt="Grassland Gunner screenshot">
-          <img src="../Images/GrasslandGunner/GrasslandGunner-Controls.png" alt="Grassland Gunner screenshot">
-          <img src="../Images/GrasslandGunner/GrasslandGunner-Round1.png" alt="Grassland Gunner screenshot">
-          <img src="../Images/GrasslandGunner/GrasslandGunner-Round1-Bullet.png" alt="Grassland Gunner screenshot">
-          <img src="../Images/GrasslandGunner/GrasslandGunner-Round2.png" alt="Grassland Gunner screenshot">
-          <img src="../Images/GrasslandGunner/GrasslandGunner-Upgrades.png" alt="Grassland Gunner screenshot">
+              <img src="../Images/GrasslandGunner2026/01-main-menu.png" alt="Grassland Gunner 2026 main menu with profile display">
+              <img src="../Images/GrasslandGunner2026/02-play-menu.png" alt="Grassland Gunner 2026 play menu with continue, load, profile and local co-op options">
+              <img src="../Images/GrasslandGunner2026/10-profile-selection.png" alt="Profile selection screen showing unlock progress for multiple profiles">
+              <img src="../Images/GrasslandGunner2026/03-specialist-tree.png" alt="Specialist class tree with recruit selected and future classes locked">
+              <img src="../Images/GrasslandGunner2026/04-ranged-weapon-tree.png" alt="Ranged weapon progression tree with selected service pistol">
+              <img src="../Images/GrasslandGunner2026/06-melee-weapon-tree.png" alt="Melee weapon selection showing combat knife statistics">
+              <img src="../Images/GrasslandGunner2026/07-perk-selection.png" alt="Perk selection screen with hidden perk variants and unlock requirements">
+              <img src="../Images/GrasslandGunner2026/08-solo-gameplay.png" alt="Solo gameplay with player, enemies, health bar, ammo display and weapon XP">
+              <img src="../Images/GrasslandGunner2026/09-run-over-screen.png" alt="Run over screen with restart, new run and quit options">
+              <img src="../Images/GrasslandGunner2026/11-local-coop-gameplay.png" alt="Local co-op gameplay with two players and separate HUD information">
+              <img src="../Images/GrasslandGunner2026/12-splitscreen-coop.png" alt="Split-screen local co-op gameplay view">
+              <img src="../Images/GrasslandGunner2026/13-pause-audio-controls.png" alt="Pause menu showing music, player SFX, enemy SFX and weapon SFX controls">
+            </div>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Original 2023 version</h2>
+            <p>
+              The original Grassland Gunner was my first solo project. It established the basic top-down shooter loop, round-based
+              progression and upgrade flow. One feature I was particularly proud of was the music progression: as rounds increased,
+              the music became faster and later introduced vocals.
+            </p>
+            <div class="gallery">
+              <img src="../Images/GrasslandGunner/GrasslandGunner-MainMenu.png" alt="Original Grassland Gunner 2023 main menu">
+              <img src="../Images/GrasslandGunner/GrasslandGunner-Controls.png" alt="Original Grassland Gunner 2023 controls screen">
+              <img src="../Images/GrasslandGunner/GrasslandGunner-Round1.png" alt="Original Grassland Gunner 2023 round 1 gameplay">
+              <img src="../Images/GrasslandGunner/GrasslandGunner-Upgrades.png" alt="Original Grassland Gunner 2023 upgrade screen">
             </div>
           </section>
         </div>
@@ -61,20 +172,44 @@
           <section class="case-study__section">
             <h2>Skills shown</h2>
             <div class="tag-list">
-            <span class="pill">C++</span>
-            <span class="pill">SFML</span>
-            <span class="pill">Gameplay programming</span>
-            <span class="pill">Game loop</span>
-            <span class="pill">Audio progression</span>
-            <span class="pill">Solo development</span>
+              <span class="pill">C++</span>
+              <span class="pill">SFML</span>
+              <span class="pill">Gameplay programming</span>
+              <span class="pill">UI systems</span>
+              <span class="pill">Progression systems</span>
+              <span class="pill">Profile persistence</span>
+              <span class="pill">Local co-op</span>
+              <span class="pill">Audio programming</span>
+              <span class="pill">Sound prioritisation</span>
+              <span class="pill">Game feel</span>
             </div>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Project status</h2>
+            <p>
+              Ongoing solo project. The current screenshots show a functional systems-focused rebuild; some UI presentation is still
+              deliberately simple while the underlying gameplay, progression and audio systems are being developed.
+            </p>
           </section>
 
           <section class="case-study__section">
             <h2>Links</h2>
             <div class="link-list">
-            <a href="https://andyandme.itch.io/grassland-gunner" target="_blank" rel="noopener">Play on itch.io →</a>
+              <a href="https://andyandme.itch.io/grassland-gunner" target="_blank" rel="noopener">Original itch.io page →</a>
+              <a href="https://www.youtube.com/watch?v=KuG0OEFQmao" target="_blank" rel="noopener">2026 audio demonstration →</a>
             </div>
+          </section>
+
+          <section class="case-study__section">
+            <h2>Best images to show</h2>
+            <ul>
+              <li><strong>Homepage card:</strong> solo gameplay screenshot.</li>
+              <li><strong>Systems proof:</strong> specialist tree, weapon tree and perk selection.</li>
+              <li><strong>Progression proof:</strong> profile selection and unlock counts.</li>
+              <li><strong>Co-op proof:</strong> local co-op and split-screen screenshots.</li>
+              <li><strong>Audio proof:</strong> pause menu with category volume controls.</li>
+            </ul>
           </section>
         </aside>
       </div>
@@ -89,6 +224,7 @@
       <a href="https://andyandme.itch.io" target="_blank" rel="noopener">itch.io</a>
     </div>
   </footer>
+
   <script src="../lightbox.js"></script>
 </body>
 </html>
