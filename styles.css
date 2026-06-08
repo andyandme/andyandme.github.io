@@ -490,7 +490,7 @@ h3 {
 }
 
 /* ============================================================
-   Video embed sizing fix
+   Portfolio media improvements
    ============================================================ */
 
 .video-embed {
@@ -512,7 +512,6 @@ h3 {
   border: 0;
 }
 
-/* If an iframe was pasted directly into the project section instead of inside .video-embed */
 .case-study__section > iframe,
 .case-study__section iframe[src*="youtube.com"],
 .case-study__section iframe[src*="youtube-nocookie.com"] {
@@ -525,24 +524,29 @@ h3 {
   border-radius: 18px;
 }
 
-/* If the original placeholder class is still on the video wrapper after adding an iframe */
-.video-embed.video-placeholder:has(iframe) {
-  padding: 0;
+.project-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.project-highlight {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 18px;
+  background: rgba(255,255,255,0.04);
+}
+
+.project-highlight strong {
   display: block;
-  min-height: 0;
+  color: var(--text);
+  margin-bottom: 6px;
 }
 
-@media (max-width: 640px) {
-  .case-study__section > iframe,
-  .case-study__section iframe[src*="youtube.com"],
-  .case-study__section iframe[src*="youtube-nocookie.com"] {
-    min-height: 220px;
-  }
+.project-highlight span {
+  color: var(--muted);
 }
-
-/* ============================================================
-   Click-to-enlarge gallery lightbox
-   ============================================================ */
 
 .gallery img {
   cursor: zoom-in;
@@ -621,7 +625,19 @@ body.lightbox-open {
   color: var(--accent);
 }
 
+@media (max-width: 920px) {
+  .project-highlights {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 640px) {
+  .case-study__section > iframe,
+  .case-study__section iframe[src*="youtube.com"],
+  .case-study__section iframe[src*="youtube-nocookie.com"] {
+    min-height: 220px;
+  }
+
   .image-lightbox {
     padding: 16px;
   }
